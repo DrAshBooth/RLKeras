@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "RLKeras"
+version = "0.1.0"
+description = ""
+authors = ["DrAshBooth <ash.booth@soton.ac.uk>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+gym = "^0.17.3"
+tensorflow = "^2.4.0"
+jupyter = "^1.0.0"
+matplotlib = "^3.3.3"
+gridworld = "^0.1"
+pymunk = "^6.0.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+jupyter = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
